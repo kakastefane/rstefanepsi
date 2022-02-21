@@ -1,10 +1,9 @@
-import type { NextPage } from 'next'
-import Seo from 'components/Seo'
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import { AiOutlineLink, AiOutlineSchedule } from 'react-icons/ai'
+import Seo from 'components/Seo'
 import Image from 'next/image'
 
-const Home: NextPage = () => {
+const SocialBio = () => {
   return (
     <>
       <Seo title='Roseli Stefane | Psicóloga Clínica • CRP 12/20169' />
@@ -160,4 +159,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default SocialBio
