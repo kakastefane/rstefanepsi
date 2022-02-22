@@ -10,28 +10,19 @@ const Home: NextPage = () => {
       <Seo title='Roseli Stefane | Psicóloga Clínica • CRP 12/20169' />
       <main className='p-12 bg-white dark:bg-gray-900'>
         <div className='mx-auto shadow-lg rounded-md w-80 bg-white dark:bg-gray-800'>
-          <Image
+          <img
             alt='profil'
             src='/images/roseli-2.jpg'
-            layout='fixed'
-            objectFit='cover'
-            objectPosition='0 -50px'
-            width={320}
-            height={115}
-            className='rounded-t-lg h-28 w-full mb-4 opacity-20 dark:opacity-10'
+            className='rounded-t-lg h-28 object-cover object-top w-full mb-4 opacity-20 dark:opacity-10'
           />
           <div className='flex flex-col items-center justify-center p-4 -mt-16'>
             <a
               href='https://roselistefanepsi.com.br'
               className='block relative rounded-full overflow-hidden shadow-lg h-16 w-16 border-2 border-white dark:border-gray-800 mb-2'
             >
-              <Image
+              <img
                 alt='profil'
                 src='/images/roseli-1.jpg'
-                layout='fixed'
-                objectFit='cover'
-                width={64}
-                height={64}
                 className='mx-auto object-cover'
               />
             </a>
